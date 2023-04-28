@@ -3,7 +3,8 @@
 <launch>
 
   <!-- IP and port on Vicon Windows PC -->
-  <arg name="datastream_hostport" default="129.97.71.97:801"/>
+  <!-- <arg name="datastream_hostport" default="129.97.71.97:801"/> -->
+  <arg name="datastream_hostport" default="129.97.71.49:801"/>
   <!-- Fixed vicon world frame -->
   <arg name="vicon_world_frame" default="/vicon/world"/>
 
